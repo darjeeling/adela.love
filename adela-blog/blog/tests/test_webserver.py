@@ -9,7 +9,7 @@ from django.test import TestCase
 #         self.assertEqual(response.status_code, 404)
 #         self.assertNotEqual(response.status_code, 200)
 
-# 아무런 설정 없이 시험 삼아 돌렸을 때 pytest에서 잘 돌아갔던 코드
+# 아무런 설정 없이 시험 삼아 돌렸을 때 pytest에서 잘 돌아갔던 코드  
 class TestClass:
     def test_one(self):
         x = 'this'
