@@ -8,6 +8,3 @@ class PostTestModel(TestCase):
    def setUp(self):
        self.User = mommy.make(User)
        self.post = Post(user=self.user)
-#        
-#    def test_publish(self):
-#        
